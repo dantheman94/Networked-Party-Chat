@@ -20,7 +20,7 @@
 x64/
 x86/
 bld/
-[Bb]in/
+#[Bb]in/
 [Oo]bj/
 [Ll]og/
 
@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+Source/Demo_AieBootstrap/dependencies/libsndfile/bin/
+Source/Demo_AieBootstrap/dependencies/vld/bin/
