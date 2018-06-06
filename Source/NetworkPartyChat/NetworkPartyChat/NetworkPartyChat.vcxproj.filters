@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Definitions">
+      <UniqueIdentifier>{8c4557ce-d74d-4bbd-8034-7abc6e92ab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RakVoice">
+      <UniqueIdentifier>{f56c9b0c-dd75-4c10-a36c-55f148fa76ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RakVoice">
+      <UniqueIdentifier>{ab23c787-2658-4499-8bbc-ac9fa0ff97aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RakVoice.cpp">
+      <Filter>Source Files\RakVoice</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODVoiceAdapter.cpp">
+      <Filter>Source Files\RakVoice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumeration.h">
+      <Filter>Header Files\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODVoiceAdapter.h">
+      <Filter>Header Files\RakVoice</Filter>
+    </ClInclude>
+    <ClInclude Include="RakVoice.h">
+      <Filter>Header Files\RakVoice</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
